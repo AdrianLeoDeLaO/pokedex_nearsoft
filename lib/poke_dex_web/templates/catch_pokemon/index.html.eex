@@ -1,0 +1,4 @@
+<h1>Gotta catch'em all</h1>
+<h3>Capture rate: <%= @params.c %></h3>
+<h2>Pokemon #<%= @params.i %> <%= @params.p["name"] %></h2>
+<a href="http://fgnoe.com/sofe_scoreboard"><button>Catch</button></a>

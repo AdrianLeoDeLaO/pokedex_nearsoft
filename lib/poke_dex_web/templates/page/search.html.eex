@@ -1,0 +1,9 @@
+<h1><%= @pokemon.id %> - <%= @pokemon.name %></h1>
+<img src="<%= @pokemon.front_image %>">
+<img src="<%= @pokemon.back_image %>">
+<h3>Types</h2>
+<ul>
+<%= for type <- @pokemon.types do %>
+    <li><%= type["type"]["name"] %></li>
+<% end %>
+</ul>
